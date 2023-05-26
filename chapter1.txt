@@ -1,0 +1,13 @@
+mkdir Story
+cd Story
+touch chapter1.txt 
+start chapter1.txt
+git init to create the repository
+the chapter1.txt is not in the staging area, we need the staging area to keep track of the changes 
+to see what is currently inside your staging area, you can use the git status command and it shows 
+you the untracked file in red , this is something inside your working directory, but not yet in the staging 
+area 
+In order to add to the staging area and start tracking changes in it, we have to use the command 
+git add chapter1.txt for instance , and use the git status and check the status again the colour of the file 
+will be in green indicating it is on the staging area
+
