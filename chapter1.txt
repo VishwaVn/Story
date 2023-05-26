@@ -9,5 +9,8 @@ you the untracked file in red , this is something inside your working directory,
 area 
 In order to add to the staging area and start tracking changes in it, we have to use the command 
 git add chapter1.txt for instance , and use the git status and check the status again the colour of the file 
-will be in green indicating it is on the staging area
+will be in green indicating it is on the staging area and it is ready to be commited 
 
+Now we will commit the file using the command 
+git commit -m "
+where "m" is the commit message that helps us keep track of the what changes we have made in each commit 
